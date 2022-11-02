@@ -37,8 +37,12 @@ A: “No me gusta ese, ¿tienes otro?
 
 Sentimiento: Insatisfacción y duda
 
+A: emocion
+Sentimiento : por favor colocar una emocion
+
 A:${capitalization}
 
 Sentimiento:
+
 `;
 };

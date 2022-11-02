@@ -3,7 +3,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const app = express();
 const router = require("./router/index");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 require("dotenv").config();
 app.use(morgan("dev"));
 app.use(cors());

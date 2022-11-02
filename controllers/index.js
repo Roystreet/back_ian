@@ -16,7 +16,7 @@ const analystSoldInteractive = async (req, res) => {
   console.log(consulta);
   const input = modelSoldInteractve(consulta);
   const analyst = await gpt3(input);
-  res.json({ result: analyst });
+  res.json({ result: { coment: analyst, type: "response" } });
 };
 
 const analystSoldInteractiveDB = async (req, res) => {
@@ -24,7 +24,7 @@ const analystSoldInteractiveDB = async (req, res) => {
   console.log(consulta);
   const input = modelSoldInteractiveDB(consulta);
   const analyst = await gpt3(input);
-  res.json({ result: analyst });
+  res.json({ result: { coment: analyst, type: "response" } });
 };
 
 module.exports = {
