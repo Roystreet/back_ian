@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 console.log(process.env.API_KEY);
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
